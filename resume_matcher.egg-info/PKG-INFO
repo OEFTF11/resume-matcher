@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: resume-matcher
+Version: 0.1.0
+Summary: Resume and job description matcher, keyword extraction, scoring, report generation
+Requires-Python: >=3.11
+Requires-Dist: typer>=0.12.0
+Requires-Dist: rich>=13.7.1
+Requires-Dist: pdfplumber>=0.11.4
+Requires-Dist: rapidfuzz>=3.9.6
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2.0; extra == "dev"
+Requires-Dist: ruff>=0.6.0; extra == "dev"

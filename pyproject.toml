@@ -1,0 +1,23 @@
+[project]
+name = "resume-matcher"
+version = "0.1.0"
+description = "Resume and job description matcher, keyword extraction, scoring, report generation"
+requires-python = ">=3.11"
+dependencies = [
+  "typer>=0.12.0",
+  "rich>=13.7.1",
+  "pdfplumber>=0.11.4",
+  "rapidfuzz>=3.9.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+resume-matcher = "resume_matcher.cli:app"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
