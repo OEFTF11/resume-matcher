@@ -32,4 +32,13 @@ Keyword scoring logic
 ## Purpose
 Built as a portfolio project to demonstrate real world Python development and to automate the process of tailoring my resumes for job listings with some text processing and job search tools.
 
+## Example Output
+
+![Resume Matcher Output](screenshot.png)
+
+
+
+
+
+
 
